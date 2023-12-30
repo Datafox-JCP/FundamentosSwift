@@ -1,10 +1,13 @@
 import SwiftUI
 /*:
- Swift Fundamentos
- 2022 - 2023
+ ## Swift Fundamentos
+ - 2022 - 2023
  
- Concepto original Swift in one Hour
- https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour
+ Clic en: Editor - Show Rendered Markup
+ 
+ 
+ [Concepto original Swift in one Hour de Paul Hudson](https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour)
+
  */
 /*:
  ### Constantes y Variables
@@ -179,7 +182,7 @@ var persona = [
     "edad": "33"
 ]
 /*:
- Para leer los datos de un diccionario, usar las mismas claves que se usaron para crealos:
+ Para leer los datos de un diccionario, usar las mismas claves que se usaron para crearlos:
 */
 print(persona["nombre", default: "Desconocido"])
 print(persona["edad", default: "Desconocido"])
